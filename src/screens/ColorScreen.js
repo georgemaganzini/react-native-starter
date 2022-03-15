@@ -12,8 +12,7 @@ const ColorScreen = () => {
             onPress={()=>{
                 setColors([...colors, randomRgb()])    
             }}
-            />
-            
+            />           
             <FlatList
                 keyExtractor={(item)=> item} 
                 data={colors}
